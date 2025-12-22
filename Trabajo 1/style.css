@@ -3,7 +3,45 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .img{
-    width: 100px;
-    height: 100px;
+    width: 28.8rem;
+    height: 28.8rem;
+    border-radius: 1rem;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(213, 225, 239);
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30.2rem;
+    height:47.5rem;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.paragraph{
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #1f314f;
+    margin: 1rem; 
+}
+
+.subparagraph{
+    color:#68778D;
+    font-size: 1.5rem;
 }
