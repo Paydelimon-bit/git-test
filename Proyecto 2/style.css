@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --fondo: #040404;
+    --clr-tarjeta:#1F1F1F;
+    --clr-texto:#96AE50;
+    --clr-enlaces:#333333;
+
+}
+
+body{
+    background-color: var(--fondo);
+    color: white;
+    height: 100vh;
+    
+}
+
+.card{
+
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    background-color: var(--clr-tarjeta);
+}
+
+.card__upper{
+    
+}
+
+.upper__img{
+    width: 100px;
+
+
+}
