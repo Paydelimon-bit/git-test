@@ -3,3 +3,105 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+    font-family: "Montserrat";
+}
+
+.layout{
+    min-height: 100%;
+    width: 100%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0B3D9;
+    font-size: 2rem;
+
+}
+
+
+.layout__main{
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__container{
+    background-color: #151932;
+    min-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+   
+    padding: 3rem;
+
+}
+
+.container__crono{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#D6DFFE;
+    border: 10px solid #99F870;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-left-color: transparent;
+}
+
+.crono__time{
+    font-size: 8rem;
+    font-weight: bold;
+   
+}
+
+.crono__btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    width: 30rem;    
+}
+
+.crono__start{
+    padding: 1rem;
+    background-color: #99F870;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.crono__pause{
+    padding: 1rem;
+    background-color: #99F870;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main__nav{
+    margin-top: 3rem;
+    background-color: #151932;
+    padding: 2.5rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+.nav__item{
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+
+}
+
+.nav__item:hover{
+    background-color: #99F870;
+    color: black;
+}
