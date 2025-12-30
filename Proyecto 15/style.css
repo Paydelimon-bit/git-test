@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#caja1 , #caja2{
+    height: 400px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#caja1{
+    background-color: skyblue;
+}
+
+#caja2{
+    background-color: rgb(105, 3, 3);
+}
+
